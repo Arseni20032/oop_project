@@ -3,8 +3,13 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net7.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>new_pixel_android (Android 13.0 — API 33)</ActiveDebugProfile>
+    <ActiveDebugProfile>new1 (Android 13.0 — API 33)</ActiveDebugProfile>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
-    <DefaultDevice>new_pixel_android</DefaultDevice>
+    <DefaultDevice>new1</DefaultDevice>
   </PropertyGroup>
+  <ItemGroup>
+    <MauiXaml Update="DataBase.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+  </ItemGroup>
 </Project>

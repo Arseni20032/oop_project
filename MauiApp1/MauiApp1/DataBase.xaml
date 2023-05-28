@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:MauiApp1="clr-namespace:MauiApp1"
+             x:DataType="MauiApp1:DataBase"
+             x:Class="MauiApp1.DataBase"
+             xmlns:type="clr-namespace:MauiApp1.Entities"
+             Title="DataBase"
+             Shell.FlyoutBehavior="Disabled">
+    
+    
+    <StackLayout
+        BackgroundColor="LightCyan"
+        >
+        <Image Source="https://ru.m.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Official_coat_of_arms_of_the_Republic_of_Belarus.jpg"
+               HeightRequest="130"
+               Margin="25"
+               />
+
+        <Picker 
+            
+            ItemsSource="{Binding RegionsList}"
+            
+            ItemDisplayBinding="{Binding Name}"
+            Title="   Выберите область   "
+            FontSize="25"
+            BackgroundColor="Tomato"
+
+            
+            TextColor="Black"
+            FontAttributes="Bold"
+            HorizontalTextAlignment="Center"
+            TitleColor="Tomato"
+            
+            Margin="0,10,0,0"
+            SelectedItem="{Binding SelectedRegion}"
+            HorizontalOptions="Center"
+            
+            VerticalOptions="Center" >
+        </Picker>
+
+        <CollectionView 
+           
+            ItemsSource="{Binding Cities}"
+            HorizontalOptions="Center">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border 
+                        BackgroundColor="Tomato"
+                        HeightRequest="65"
+                        WidthRequest="325"
+                        
+                        
+                        Margin="0,15,0,0"
+                        Stroke="Green"
+                                                
+                        StrokeShape="RoundRectangle 10" >
+
+                        <Label x:DataType="type:City"
+                               Text="{Binding CityName}"
+                               VerticalOptions="Center" 
+                               HorizontalOptions="Center"
+                               FontAttributes="Bold"
+                               FontSize="20"
+                               TextColor="LightCyan"
+                               >
+
+                        </Label>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

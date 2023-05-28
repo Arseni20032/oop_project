@@ -94,6 +94,22 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "SQLiteNetExtensions.Async": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
+            "SQLitePCLRaw.provider.sqlite3": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
             "Xamarin.Android.Glide": {
               "target": "Package",
               "version": "[4.13.2.2, )",
@@ -148,6 +164,10 @@
               "target": "Package",
               "version": "[1.7.0.1, )",
               "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -215,6 +235,26 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "SQLiteNetExtensions.Async": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
+            "SQLitePCLRaw.provider.sqlite3": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -282,6 +322,26 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "SQLiteNetExtensions.Async": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
+            "SQLitePCLRaw.provider.sqlite3": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -366,6 +426,26 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "SQLiteNetExtensions.Async": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
+            "SQLitePCLRaw.provider.sqlite3": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [

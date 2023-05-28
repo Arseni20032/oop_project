@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
-
+using MauiApp1.Services;
 namespace MauiApp1;
 
 public static class MauiProgram
@@ -15,10 +15,11 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
-#if DEBUG
-		builder.Logging.AddDebug();
-#endif
 
-		return builder.Build();
+        builder.Services.AddTransient<IDbService, SQLiteService>();
+        builder.Services.AddTransient<DataBase>();
+
+
+        return builder.Build();
 	}
 }
